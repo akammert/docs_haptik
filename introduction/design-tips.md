@@ -1,17 +1,29 @@
 ## Designing a Chatbot
 
-We recommend starting the chatbot design process by creating an outline and a strategy. The chatbots your company creates will be an extension of your brand; therefore, their design warrants as much attention as the design of any other customer touch-point. To get you started, we’ve put together a guide to chatbot design, complete with tips from our own in-house design experts.     
+We recommend starting the chatbot design process by creating an outline and a strategy. The chatbots your company creates will be an extension of your brand; therefore, their design warrants as much attention as the design of any other customer touchpoint. To get you started, we’ve put together a guide to chatbot design, complete with tips from our own in-house design experts.     
 
-1. **Start by identifying your goals**: 
-   Identify and understand what you want your chatbots to accomplish. What are the desired outcomes of the conversation it will have with users? For example, your chatbot might be primarily intended to:
+1. **Start by identifying your users' goals**: 
+   Identify and understand what tasks you'd like your chatbots to help your users accomplish. Some examples of possible user goals could be:
+
+   - Booking transportation (trains, planes, cars, etc.)
+   - Collecting information about a company or product
+   - Discovering a nearby ATM
+   
+2. **Next, identify your business goals**: 
+   Identify the desired outcomes of the conversation your chatbot will be having with customers. For example, your chatbot might primarily be intended to:
 
    - Gather customer information
    - Share information with potential clients
    - Direct users to a particular site
+   
+   Once you've identified your business goals, it's helpful to ask yourself the following questions:
+   
+   - How do we achieve our business goals without disrupting the user's experience?
+   - How can we motivate users to help us accomplish our goals? (i.e. share more information, click to the website we're pointing them to, etc.)
+   
+   Mapping the intended outcomes of the conversation from both the user's and company's perspectives, and brainstorming about the best ways to reach these outcomes will help you design a chatflow that drives the results you desire for all stakeholders involved. 
 
-   Mapping the intended outcomes of the conversation will help you design a chatflow that drives the results you desire.
-
-2. **Create a conversation framework**: 
+3. **Create a conversation framework**: 
    Using the framework of *stories* and *sub-stories* to divide the entire conversation into smaller chunks associated with specific tasks is a helpful second step.
 
    > **Stories** are clusters of chat flows that usually align with the overall goals of the chatbot. For example, a trip aggregator website wants to build a chatbot with the goals of helping users:
@@ -31,12 +43,12 @@ We recommend starting the chatbot design process by creating an outline and a st
 
    You can use the framework of stories and sub-stories as a skeleton for building out the chatflows for your entire bot. 
 
-3. **Write a Script**: 
+4. **Write a Script**: 
    Once you’ve figured out what you want your chatbot to accomplish, you need to figure out exactly how it will communicate information, queries, and instructions to end users. Every sub-story involves some back and forth between the chatbot and the end user, and it is the bot builder’s job to create a script that the chat bot will pull from to respond to the end user appropriately. 
 
    As mentioned above, a helpful method of making sure the chatbot script includes all the components required to accomplish the original goals it set out to, is to build out text from the user flow outlined by identifying the stories and sub-stories of the conversation.  
 
-4. **Give Your Chatbot a Personality**:
+5. **Give Your Chatbot a Personality**:
    The personality expressed by the chatbot will be an extension of your company's brand, so it's important to design it carefully. Chatbot personality emerges via: 
 
    - Word choice, speaking style, and cadence (does bot respond using curt and minimal phrases, or friendly, free flowing sentences interspersed with emojis?)
